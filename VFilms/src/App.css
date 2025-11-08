@@ -1134,7 +1134,6 @@ textarea::placeholder {
     z-index: 9999999;
     top: 0;
     right: 10px;
-    width: 100vw;
     padding: 20px 20px;
     align-items: center;
     display: flex;
@@ -1199,7 +1198,6 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-left: 20px;
     margin-bottom: 50px;
     margin-top: 20px;
   }
@@ -1243,7 +1241,7 @@ textarea::placeholder {
     font-size: 0.6em !important;
     font-weight: 400;
     text-align: center;
-    width: 200px;
+    width: 300px;
     padding: 50px;
     font-family: var(--font-switch);
   }
@@ -1253,7 +1251,6 @@ textarea::placeholder {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
   }
 
   .img-container-2 {
@@ -1276,8 +1273,8 @@ textarea::placeholder {
   #indiaGate {
     position: absolute;
     height: 5em;
-    bottom: 150px;
-    left: 0px;
+    bottom: 120px;
+    left: 20px;
   }
 
   #persons {
@@ -1313,7 +1310,7 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    margin-left: 30px;
+
     gap: 2px;
     font-family: var(--font-switch);
   }
@@ -1384,7 +1381,7 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 30px;
+
   }
 
   .page-four h2 {
@@ -1422,6 +1419,10 @@ textarea::placeholder {
     padding-left: 50px;
     z-index: 9999;
     overflow: scroll;
+  }
+  
+  .carousel::-webkit-scrollbar{
+  display: none;
   }
 
   .frame {
@@ -1504,7 +1505,7 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 30px;
+
   }
 
   .main-title {
@@ -1545,7 +1546,7 @@ textarea::placeholder {
     align-items: center;
     position: relative;
     min-height: 500px;
-    margin-left: 30px;
+
     padding-bottom: 100px;
     gap: 20px;
     overflow-x: hidden !important;
@@ -1566,7 +1567,7 @@ textarea::placeholder {
 
   #mandala-footer-3 {
     position: absolute;
-    right: 0px;
+    right: -68px;
     top: 0;
     height: 10em;
   }
