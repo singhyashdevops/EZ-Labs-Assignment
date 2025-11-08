@@ -9,7 +9,6 @@ body {
   box-sizing: border-box;
   overflow-x: hidden !important;
   font-family: var(--font-main);
-  background-color: #d18603;
   background-image: url('./assets/bg.png');
 }
 
