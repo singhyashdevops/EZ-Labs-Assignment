@@ -8,6 +8,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden !important;
+  background-color: #ffb164;
   font-family: var(--font-main);
   background-image: url('./assets/bg.png');
 }
