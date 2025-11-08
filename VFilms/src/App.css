@@ -10,7 +10,7 @@ body {
   overflow-x: hidden !important;
   background-color: #fff5f5;
   font-family: var(--font-main);
-  background-image: url('bg.png');
+  background-image: url('/BG.png');
 }
 
 body::-webkit-scrollbar {
@@ -26,7 +26,7 @@ button {
   border: none;
   padding: 5px 20px;
   transition: all ease-in-out 0.3s;
-
+  
   &:hover {
     background-color: rgb(255, 204, 0);
     transition: all ease-in-out 0.3s;
@@ -34,6 +34,7 @@ button {
 }
 
 .navbar {
+  background-image: url('/BG.png');
   position: sticky;
   z-index: 9999999;
   top: 0;
