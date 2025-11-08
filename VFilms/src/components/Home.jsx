@@ -70,7 +70,7 @@ export default function Home() {
     return (
         <div style={{ display: 'flex', flexDirection: "column", justifyContent: "center" }}>
             <Toaster visibleToasts={1} />
-            <div className="page-one">
+            <div id='varnan' className="page-one">
                 <div className="img-container">
                     <img id="mandela" src={mandelaArt} alt="Mandela art" />
                     <img id="logo" src={logo} alt="Varnan logo" />
@@ -89,7 +89,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="page-two">
+            <div id='our-story' className="page-two">
                 <div className="page-two-flex-one">
                     <div className="img-container-2">
                         <img id="paperclip" src={paperclip} alt="paperclip" />
@@ -109,9 +109,7 @@ export default function Home() {
                     <img id="arrow" src={arrow} alt="arrow" height={20} />
                     <img id="persons" src={persons} alt="persons" />
                     <h2>Take a closer look at the stories V bring to life.</h2>
-                    <Link to="/Portfolio">
-                        <button>View Portfolio</button>
-                    </Link>
+                    <button>View Portfolio</button>
                 </div>
             </div>
 
@@ -154,7 +152,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="page-four">
+            <div id='services'  className="page-four">
                 <div className="stroked-title">
                     <h2>The storyboard reveals the breadth of our craft.</h2>
                     <img id="stroke" src={stroke} alt="stroke" />
@@ -201,7 +199,7 @@ export default function Home() {
                 <img id="mandala-footer" src={vectorThree} alt="Mandala art footer" />
             </div>
 
-            <div className="page-six">
+            <div id='contact'  className="page-six">
                 <p>
                     Whether you have an idea, a question, or simply want to explore how V
                     can work together, V’re just a message away. Let’s catch up over

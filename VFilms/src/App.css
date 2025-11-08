@@ -10,7 +10,7 @@ body {
   overflow-x: hidden !important;
   background-color: #fff5f5;
   font-family: var(--font-main);
-  background-image: url('./assets/bg.png');
+  background-image: url('bg.png');
 }
 
 body::-webkit-scrollbar {
@@ -38,7 +38,7 @@ button {
   z-index: 9999999;
   top: 0;
   right: 10px;
-  background-color: #fff;
+  background-color: #fff5f5;
   padding: 20px 20px;
   align-items: center;
   display: flex;
@@ -1420,9 +1420,9 @@ textarea::placeholder {
     z-index: 9999;
     overflow: scroll;
   }
-  
-  .carousel::-webkit-scrollbar{
-  display: none;
+
+  .carousel::-webkit-scrollbar {
+    display: none;
   }
 
   .frame {
