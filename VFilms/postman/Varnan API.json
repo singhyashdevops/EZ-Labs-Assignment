@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "6473733e-bfb2-4d57-a0e0-9fa6d287119d",
+		"name": "https://vernanbackend.ezlab.in/api/contact-us/",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43581232",
+		"_collection_link": "https://varnan-7826.postman.co/workspace/279a1a57-89e1-4f17-b8b7-96785154edcc/collection/43581232-6473733e-bfb2-4d57-a0e0-9fa6d287119d?action=share&source=collection_link&creator=43581232"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\":\"testbyyash\",\r\n\"email\":\"test@yash.in\",\r\n\"phone\":\"2211662252\",\r\n\"message\":\"This is a test submission.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+					"protocol": "https",
+					"host": [
+						"vernanbackend",
+						"ezlab",
+						"in"
+					],
+					"path": [
+						"api",
+						"contact-us",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name\":\"testbyyash\",\r\n\"email\":\"test@yash.in\",\r\n\"phone\":\"2211662252\",\r\n\"message\":\"This is a test submission.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+							"protocol": "https",
+							"host": [
+								"vernanbackend",
+								"ezlab",
+								"in"
+							],
+							"path": [
+								"api",
+								"contact-us",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 08 Nov 2025 10:29:24 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "275"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.12.3"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie, origin"
+						},
+						{
+							"key": "Allow",
+							"value": "OPTIONS, POST"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Contact request submitted and email sent successfully\",\n    \"data\": {\n        \"id\": 2518,\n        \"name\": \"testbyyash\",\n        \"email\": \"test@yash.in\",\n        \"phone\": \"2211662252\",\n        \"message\": \"This is a test submission.\",\n        \"created_at\": \"2025-11-08T10:29:21.990641Z\",\n        \"updated_at\": \"2025-11-08T10:29:21.990658Z\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
