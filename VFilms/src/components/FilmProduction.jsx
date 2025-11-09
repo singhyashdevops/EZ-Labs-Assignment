@@ -3,7 +3,7 @@ import taped from '../assets/taped.png'
 import eight from '../assets/Camera 01.svg'
 import nine from '../assets/Camera 02.svg'
 import ten from '../assets/Camera 03.svg'
-import arrow from '../assets/arrow.svg'
+import arrow from '../assets/Arrow.svg'
 import production from '../assets/prod.png'
 import mandala from '../assets/Frame 33.svg';
 import { Link } from 'react-router-dom'

@@ -4,7 +4,7 @@ import curator from '../assets/art.jpg'
 import one from '../assets/Art Curation Icons 01.svg'
 import two from '../assets/Art Curation Icons 02.svg'
 import four from '../assets/Art Curation Icons 04.svg'
-import arrow from '../assets/arrow.svg'
+import arrow from '../assets/Arrow.svg'
 import mandala from '../assets/Frame 33.svg';
 import { Link } from 'react-router-dom'
 

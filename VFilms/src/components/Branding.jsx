@@ -3,7 +3,7 @@ import taped from '../assets/taped.png'
 import five from '../assets/Branding Vector 01.svg'
 import six from '../assets/Branding Vector 03.svg'
 import seven from '../assets/Branding Vector 04.svg'
-import arrow from '../assets/arrow.svg'
+import arrow from '../assets/Arrow.svg'
 import branding from '../assets/branding.png'
 import mandala from '../assets/Frame 33.svg';
 import { Link } from 'react-router-dom'
