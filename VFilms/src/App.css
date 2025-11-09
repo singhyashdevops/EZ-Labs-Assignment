@@ -332,6 +332,9 @@ a {
   margin-top: 0px;
   display: flex;
   flex-direction: row;
+  background-color: #666666;
+  width: 100%;
+  overflow: hidden;
 
   img {
     height: 3em;
@@ -1204,7 +1207,6 @@ textarea::placeholder {
     right: 0;
     left: 0;
     top: 60px;
-    background-color: rgb(255, 162, 0);
     transition: ease-in-out 0.3s all;
   }
 
