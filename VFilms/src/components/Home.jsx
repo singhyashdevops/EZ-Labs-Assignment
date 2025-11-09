@@ -11,9 +11,9 @@ import sunrise from '../assets/sunrise.png';
 import mandala from '../assets/Frame 33.svg';
 import stroke from '../assets/Vector 5.svg';
 import taped from '../assets/taped.png';
-import curator from '../assets/curator.jpg';
-import branding from '../assets/branding.jpg';
-import filming from '../assets/filming.jpg';
+import curator from '../assets/artCuration.png';
+import branding from '../assets/branding-.png';
+import filming from '../assets/filmProduction.png';
 import reel from '../assets/Group 11.png';
 import oldcam from '../assets/oldcam.png';
 import vectorOne from '../assets/Footer Vector-1.png';
@@ -89,7 +89,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div id='our-story' className="page-two">
+            <div id='aboutTeam' className="page-two">
                 <div className="page-two-flex-one">
                     <div className="img-container-2">
                         <img id="paperclip" src={paperclip} alt="paperclip" />
@@ -113,7 +113,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="page-three">
+            <div id='aboutUs' className="page-three">
                 <div className="page-three-flex-one">
                     <h4>A montage of familiar faces and names.</h4>
                     <p>
@@ -152,7 +152,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div id='services'  className="page-four">
+            <div id='services' className="page-four">
                 <div className="stroked-title">
                     <h2>The storyboard reveals the breadth of our craft.</h2>
                     <img id="stroke" src={stroke} alt="stroke" />
@@ -184,7 +184,20 @@ export default function Home() {
                     </Link>
                 </div>
 
-                <img id="mandala-border" src={mandala} alt="mandala art" />
+                <div id="mandala-border" >
+                    <img src={mandala} alt="mandala art" />
+                    <img src={mandala} alt="mandala art" />
+                    <img src={mandala} alt="mandala art" />
+                    <img src={mandala} alt="mandala art" />
+                    <img src={mandala} alt="mandala art" />
+                    <img src={mandala} alt="mandala art" />
+                    <img src={mandala} alt="mandala art" />
+                    <img src={mandala} alt="mandala art" />
+                    <img src={mandala} alt="mandala art" />
+                    <img src={mandala} alt="mandala art" />
+                    <img src={mandala} alt="mandala art" />
+                    <img src={mandala} alt="mandala art" />
+                </div>
             </div>
 
             <div className="page-five">
@@ -199,7 +212,7 @@ export default function Home() {
                 <img id="mandala-footer" src={vectorThree} alt="Mandala art footer" />
             </div>
 
-            <div id='contact'  className="page-six">
+            <div id='contact' className="page-six">
                 <p>
                     Whether you have an idea, a question, or simply want to explore how V
                     can work together, V’re just a message away. Let’s catch up over

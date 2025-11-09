@@ -1,10 +1,11 @@
-import mandala from '../assets/Frame 33.svg'
 import stroke from '../assets/Vector 5.svg'
 import taped from '../assets/taped.png'
 import five from '../assets/Branding Vector 01.svg'
 import six from '../assets/Branding Vector 03.svg'
 import seven from '../assets/Branding Vector 04.svg'
+import arrow from '../assets/arrow.svg'
 import branding from '../assets/branding.png'
+import mandala from '../assets/Frame 33.svg';
 import { Link } from 'react-router-dom'
 
 export default function Branding() {
@@ -17,7 +18,7 @@ export default function Branding() {
       </div>
       <div className='carousel artcurator'>
         <div id='art' className='frame'>
-          <img id='tape' height={100} src={taped} alt="" />
+          <img id='tape' src={taped} alt="" />
           <img className='image-carousel' src={branding} alt="" />
           <h4>Branding</h4>
         </div>
@@ -34,11 +35,25 @@ export default function Branding() {
       </div>
       <div id='explore'>
         <button>Explore More</button>
+        <img src={arrow} alt="explore" />
       </div>
-      <img id='mandala-border' src={mandala} alt="art" />
       <img className='xop i1' src={five} alt="art" />
       <img className='xop i2' src={six} alt="art" />
       <img className='xop i4' src={seven} alt="art" />
+            <div id="mandala-border" >
+              <img src={mandala} alt="mandala art" />
+              <img src={mandala} alt="mandala art" />
+              <img src={mandala} alt="mandala art" />
+              <img src={mandala} alt="mandala art" />
+              <img src={mandala} alt="mandala art" />
+              <img src={mandala} alt="mandala art" />
+              <img src={mandala} alt="mandala art" />
+              <img src={mandala} alt="mandala art" />
+              <img src={mandala} alt="mandala art" />
+              <img src={mandala} alt="mandala art" />
+              <img src={mandala} alt="mandala art" />
+              <img src={mandala} alt="mandala art" />
+            </div>
     </div>
   )
 }
